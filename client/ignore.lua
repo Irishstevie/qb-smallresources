@@ -101,3 +101,10 @@ CreateThread(function()
         SetPedDropsWeaponsWhenDead(v, false)
     end
 end)
+
+CreateThread(function()
+    while Config.EnableGhostSirens do
+        DistantCopCarSirens(false)
+        Wait(2000)        
+    end
+end)
