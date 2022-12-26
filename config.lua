@@ -43,10 +43,13 @@ Config.DispatchServices = {
 -- Enable or disable the wanted level
 Config.EnableWantedLevel = false
 
+-- Disable Ghost Sirens
+Config.EnableGhostSirens = false
+
 -- To Set This Up visit https://forum.cfx.re/t/how-to-updated-discord-rich-presence-custom-image/157686
 Config.Discord = {
     ["IsEnabled"] = true, -- If set to true, then discord rich presence will be enabled
-    ["ApplicationId"] = '915674222628585472', -- The discord application id
+    ["ApplicationId"] = '', -- The discord application id
     ["IconLarge"] = 'logo_name', -- The name of the large icon
     ["IconLargeHoverText"] = 'This is a Large icon with text', -- The hover text of the large icon
     ["IconSmall"] = 'small_logo_name', -- The name of the small icon
